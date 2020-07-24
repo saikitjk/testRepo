@@ -14,12 +14,6 @@ function getNewsAPI(){
         console.log("in use query " + queryURL);
 
         $.ajax({
-        headers:{
-            "Access-Control-Request-Method": "GET",
-            "Access-Control-Allow-Origin": "*"
-        },
-
-        crossDomain: true,
         url: queryURL,
         method: "GET",
  
